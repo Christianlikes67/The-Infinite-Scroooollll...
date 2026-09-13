@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Infinite Scroooollll...</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="auto-scroll-controls" aria-live="polite">
+      <div class="auto-scroll-toggle">
+        <button id="autoScrollToggle" class="auto-scroll-button" type="button" aria-pressed="false">
+          <span class="toggle-box" aria-hidden="true"></span>
+          <span class="toggle-label">Auto scroll</span>
+        </button>
+      </div>
+
+      <div class="speed-wrap">
+        <button id="speedToggle" class="speed-button" type="button" aria-label="Toggle auto scroll speed" aria-pressed="false">
+          <span class="speed-value">1x</span>
+        </button>
+      </div>
+    </div>
+    <div class="auto-scroll-note">this is needed.</div>
+
+    <main class="hero">
+      <p class="eyebrow">(echo...)</p>
+      <h1>The Infinite Scroooollll...</h1>
+      <div class="scroll" id="scroll-track" aria-label="Infinite scroll text"></div>
+    </main>
+
+    <div class="phase-overlay" id="phaseOverlay" aria-live="polite">
+      <div class="phase-message">
+        <h3 id="phaseText">You are now leaving The pit of redemption</h3>
+      </div>
+    </div>
+
+    <div class="pit-overlay" id="pitOverlay" aria-live="polite">
+      <div class="pit-message">
+        <p class="label">Welcome to</p>
+        <h2>The Pit of Redemptions</h2>
+      </div>
+    </div>
+
+    <div class="realm-overlay" id="realmOverlay" aria-live="polite">
+      <div class="realm-message">
+        <p class="label">Welcome to</p>
+        <h2>The Realm of Everything</h2>
+      </div>
+    </div>
+
+    <div class="final-image-overlay" id="finalImageOverlay" aria-live="polite" aria-hidden="true">
+      <img src="https://plain-weur-prod-public.komododecks.com/202609/13/V5i1D41XJ2KO2lR0cDny/image.png" alt="Final artwork" />
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
