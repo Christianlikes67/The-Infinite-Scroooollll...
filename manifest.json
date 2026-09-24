@@ -1,0 +1,21 @@
+{
+  "name": "The Infinite Scroooollll...",
+  "short_name": "InfiniteScroll",
+  "description": "An endless scrolling experimental webpage.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://cdn.corenexis.com/f/gnwaFTGg5c5.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.corenexis.com/f/gnwaFTGg5c5.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
